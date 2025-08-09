@@ -1,4 +1,3 @@
-// TEA round function module (clean, synthesizable, best-practice)
 // Performs 32 TEA rounds on (left_in,right_in) using keys key1..key4.
 // Handshake: assert `start` (pulse) to begin. `done` pulses high for one clock
 // cycle when ciphertext available on left_out/right_out.
@@ -147,4 +146,5 @@ module Round_fun (
     end
 
 endmodule
+
 
